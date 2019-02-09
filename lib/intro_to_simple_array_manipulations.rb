@@ -67,9 +67,9 @@ def using_flatten(private_colleges_in_newyork)
   
 end
 
-def using_delete(instructors, steven)
+def using_delete(instructors, name_string)
   
-   instructors.delete(steven)
+   instructors.delete(name_string)
   
 end
 
