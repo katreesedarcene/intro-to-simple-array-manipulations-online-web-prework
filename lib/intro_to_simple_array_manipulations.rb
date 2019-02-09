@@ -49,6 +49,34 @@ end
 
 def using_insert(list_of_esoteric_programming_languages, another_esoteric_language)
   
+list_of_esoteric_programming_languages.insert(4,another_esoteric_language)
+  
+  
+end
+
+def using_uniq(captain_planet_and_the_planeteers)
+  
+  captain_planet_and_the_planeteers.uniq()
+  
+
+end
+
+def using_flatten(private_colleges_in_newyork)
+  
+  private_colleges_in_newyork.flatten!
+  
+end
+
+def using_delete(instructors, name_string)
+  
+   instructors.delete(name_string)
+  
+end
+
+def using_delete_at(famous_robots, num)
+  
+  famous_robots.delete_at(2)
+  
   
 end
 
