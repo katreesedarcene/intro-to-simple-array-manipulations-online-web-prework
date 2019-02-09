@@ -69,7 +69,7 @@ end
 
 def using_delete(instructors, no_offense_steven)
   
-  no_offense_ instructors.delete()
+   instructors.delete()
   
 end
 
